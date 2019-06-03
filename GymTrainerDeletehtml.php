@@ -50,7 +50,7 @@ table {
 }
 
 body {
-  background: white url("img/gym88.jpg") no-repeat top;
+  background: white url("img/gym8.jpg") no-repeat top;
   background-size: cover;
   color: #ddd;
 }

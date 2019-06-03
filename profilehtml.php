@@ -12,7 +12,7 @@ require_once "profile.php";
 <style>
 body {
     padding-top: 4rem;
-  background: white url("img/gym88.jpg") no-repeat top;
+  background: white url("img/gym8.jpg") no-repeat top;
   background-size: cover;
   color: #ddd;
 }
@@ -120,9 +120,14 @@ a {
     <label for="exampleInputPassword1">% Muscle</label>
     <input name="muscle" type="text" class="form-control" id="exampleInputPassword1" placeholder="Update Muscle percentage">
   </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">RESERVATION isert Id Lesson</label>
+    <input name="id" type="text" class="form-control" id="exampleInputPassword1" placeholder="Insert id lesson for resevation">
+  </div>
   <button href="profilehtml.php" type="submit" class="btn btn-primary">Update</button>
   <a href="home.html" class="btn btn-primary">Log Out</a>
 </form>
+
 
 <table border="0px">
          <tr>
@@ -161,6 +166,33 @@ foreach ($characteristics as $c)
 echo "</tr";
 
 ?>
+</table>
+
+
+<table border="0px">
+         <tr>
+            <th>Day</th>
+            <th>Hours</th>
+            <th>Training Programm</th>
+            <th>Trainer Name</th>
+            <th>Availability</th>
+            <th>Class Hall Nname</th>
+            <th>Lesson Id</th>
+            
+         </tr>
+         <?php
+$Profile = new Profile($_SESSION["email"]);
+$Profile->showClasses();
+if (isset($_POST['id']))
+{
+    $Profile->updateReservation($_POST['id']);
+    
+
+
+}
+
+?>
+</table>
 
 
 

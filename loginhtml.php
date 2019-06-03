@@ -44,7 +44,7 @@ require_once "WebUser.php";
 }
 
 body {
-  background: white url("img/gym7.jpg") no-repeat top;
+  background: white url("img/gym8.jpg") no-repeat top;
   background-size: cover;
   color: #ddd;
 }
@@ -80,7 +80,7 @@ a {
   <h1>Gym Mentor</h1>
 </div>
 
-<form class="forma" action="http://localhost/tech/loginhtml.php" method="POST">>
+<form class="forma" action="http://localhost/tech/loginhtml.php" method="POST">
   <div class="form-group">
     <label for="exampleInputEmail1">email</label>
     <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">

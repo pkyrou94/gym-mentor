@@ -40,7 +40,7 @@
 
 
 body {
-  background: white url("img/gym88.jpg") no-repeat top;
+  background: white url("img/gym8.jpg") no-repeat top;
   background-size: cover;
   color: #ddd;
 }
@@ -80,7 +80,7 @@ a {
 
 <form class="menu-bar">
    
-      <a href="NutritionistInserthtml1.php" class="button button1">Insert Food</a>    
+      <a href="NutritionistInserthtml1.php" class="button button3">Insert Food</a>    
       <a href="NutritionistCMhtml.php" class="button button4">Creat a new meal</a> 
       <a href="Nutritionistdeletehtml.php" class="button button2">Delete Meal</a>
     </div>

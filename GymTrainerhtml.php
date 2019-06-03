@@ -38,7 +38,7 @@
 
 
 body {
-  background: white url("img/ggym88.jpg") no-repeat top;
+  background: white url("img/gym8.jpg") no-repeat top;
   background-size: cover;
   color: #ddd;
 }
@@ -78,8 +78,9 @@ a {
 
 <form class="menu-bar">
    
-      <a href="GymTrainerinserthtml.php" class="button button1">Insert</a>    
-      <a href="Nutritionistdeletehtml.php" class="button button2">Delete</a>
+      <a href="GymTrainerinserthtml.php" class="button button1">Insert Exercise</a>    
+      <a href="GymTrainerDeletehtml.php" class="button button2">Delete</a>
+      <a href="GymTrainerinserthtml.php" class="button button2">Insert Class</a>
     </div>
     
 </form>

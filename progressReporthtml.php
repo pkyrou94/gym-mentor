@@ -121,7 +121,7 @@ a {
 
 
 	
-$UserDetails = new UserDetails($_SESSION['email']);
+$UserDetails = new UserDetails($_SESSION['$email']);
 
 
 if (isset($_POST['fat']) && isset($_POST['muscle']))

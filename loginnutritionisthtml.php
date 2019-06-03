@@ -44,7 +44,7 @@ require_once "WebNutritionist.php";
 }
 
 body {
-  background: white url("img/gym7.jpg") no-repeat top;
+  background: white url("img/gym8.jpg") no-repeat top;
   background-size: cover;
   color: #ddd;
 }
@@ -85,7 +85,7 @@ a {
   <h3>Welcome Nutritionist</h3>
 </div>
 
-<form class="forma" action="http://localhost/tech/loginnutritionisthtml.php" method="POST">>
+<form class="forma" action="http://localhost/tech/loginnutritionisthtml.php" method="POST">
   <div class="form-group">
     <label for="exampleInputEmail1">email</label>
     <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">

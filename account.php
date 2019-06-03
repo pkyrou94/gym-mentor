@@ -82,7 +82,7 @@ class Account
                 $message = 'SUCESFULL';
                 echo "<SCRIPT type='text/javascript'> //not showing me this
 			alert('$message');
-			window.location.replace('http://localhost/tech/characteristics.html');
+			window.location.replace('http://localhost/tech/characteristicshtml.php');
 			</SCRIPT>";
               //  $this->email = $email;
             }

@@ -44,7 +44,7 @@ require_once "WebTrainer.php";
 }
 
 body {
-  background: white url("img/gym88.jpg") no-repeat top;
+  background: white url("img/gym8.jpg") no-repeat top;
   background-size: cover;
   color: #ddd;
 }
@@ -85,7 +85,7 @@ a {
   <h3>Welcome Trainer</h3>
 </div>
 
-<form class="forma" action="http://localhost/tech/logintrainerhtml.php" method="POST">>
+<form class="forma" action="http://localhost/tech/logintrainerhtml.php" method="POST">
   <div class="form-group">
     <label for="exampleInputEmail1">email</label>
     <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
